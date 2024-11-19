@@ -1,0 +1,12 @@
+.root {
+    position: relative;
+    transition: border-color 150ms ease;
+  
+    &[data-checked] {
+      border-color: var(--mantine-primary-color-filled);
+    }
+  
+    @mixin hover {
+        background-color: var(--mantine-color-gray-0);
+    }
+  }
