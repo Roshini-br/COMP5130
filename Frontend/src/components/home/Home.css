@@ -1,0 +1,18 @@
+.Home-container {
+  margin: 2rem;
+  flex-wrap: wrap;
+  width: -webkit-fill-available;
+  border-radius: 12px;
+  overflow: auto;
+}
+
+.Home-inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2rem 2rem 2rem;
+  padding: 2rem;
+  border-radius: 12px;
+  width: -webkit-fill-available;
+}
