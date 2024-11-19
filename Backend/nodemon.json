@@ -1,6 +1,0 @@
-{
-  "ignore": ["./swagger-output.json"],
-  "watch": ["api/index.js", "*.js"],
-  "ext": "js,json",
-  "exec": "node -r dotenv/config api/index.js"
-}
